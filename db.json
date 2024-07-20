@@ -1,0 +1,91 @@
+{
+  "singin": [
+    {
+      "userid": "radha@514",
+      "fullname": "Radhakrishna",
+      "password": "256859",
+      "Domain": "admin",
+      "department": "cse",
+      "id": 1
+    },
+    {
+      "userid": "kavi@514",
+      "fullname": "kavitha",
+      "password": "8374491138",
+      "Domain": "student",
+      "course": "btech",
+      "department": "cse",
+      "id": 2
+    },
+    {
+      "userid": "niha@514",
+      "fullname": "Niharika",
+      "password": "8317568",
+      "Domain": "student",
+      "course": "Btech",
+      "department": "cse",
+      "id": 3
+    },
+    {
+      "userid": "sree@514",
+      "fullname": "Sree",
+      "password": "1234",
+      "Domain": "admin",
+      "department": "bba",
+      "id": 6
+    },
+    {
+      "userid": "hav@514",
+      "fullname": "harvin",
+      "password": "123",
+      "Domain": "admin",
+      "department": "mca",
+      "id": 7
+    },
+    {
+      "userid": "radha@5144",
+      "fullname": "radha",
+      "password": "123",
+      "Domain": "1",
+      "course": "bcom",
+      "department": "de",
+      "id": 8
+    },
+    {
+      "userid": "krish@514",
+      "fullname": "krithi",
+      "password": "t",
+      "Domain": "student",
+      "course": "ai",
+      "department": "be",
+      "id": 9
+    },
+    {
+      "userid": "sruthi@514",
+      "fullname": "t",
+      "password": "t",
+      "Domain": "student",
+      "course": "t",
+      "department": "t",
+      "id": 10
+    },
+    {
+      "userid": "rah@514",
+      "fullname": "raha",
+      "password": "1234",
+      "Domain": "student",
+      "course": "mtech",
+      "department": "ml",
+      "id": 11
+    },
+    {
+      "userid": "",
+      "fullname": "",
+      "password": "",
+      "Domain": "student",
+      "course": "",
+      "department": "",
+      "id": 12
+    }
+  ]
+}

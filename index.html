@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: antiquewhite;">
+    <h1 id="h1">STUDENT DATABASE MANAGEMENT SYSTEM</h1>
+    <div class="domains">
+        <div class="sub-domains">
+            <div>
+                <label for="userid">UserId
+                    <input type="text" id="userid-admin">
+                </label>
+                <label for="password">Password
+                    <input type="text" id="password-admin">
+                </label><br><br>
+                <button onclick="admin()">Admin singIn</button><br>
+               
+            </div>
+        </div>
+        <div class="sub-domains">
+            <div>
+                <label for="userid">UserId
+                    <input type="text" id="userid-student">
+                </label>
+                <label for="password">Password
+                    <input type="text" id="password-student">
+                </label><br><br>
+                <button onclick="student()">Student singIn</button><br>
+               
+            </div>
+        </div>
+        <div class="sub-domains">
+            <div>
+                <p>New student signup</p>
+                <label for="userid">UserId
+                    <input type="text" id="userid-new">
+                </label>
+                <label for="userid">Fullname
+                    <input type="text" id="fullname-new">
+                </label>
+            
+                <label for="password">Password
+                    <input type="text" id="password-new">
+                </label>
+                <label for="password">Domain
+                    <input type="text" id="domain-new" placeholder="student">
+                </label>
+                <label for="password">course
+                    <input type="text" id="course-new">
+                </label>
+                <label for="password">department
+                    <input type="text" id="department-new">
+                </label>
+                <br><br>
+                <button onclick="post()">Create account</button>
+            </div>
+        </div>
+    </div>
+    <script src="demo.js"></script>
+</body>
+</html>

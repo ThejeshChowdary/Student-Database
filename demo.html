@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Table</title>
+</head>
+<body>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>User ID</th>
+        <th>Full Name</th>
+        <th>Password</th>
+        <th>Domain</th>
+        <th>Course</th>
+        <th>Department</th>
+     
+      </tr>
+    </thead>
+    <tbody id="userTableBody">
+ 
+    </tbody>
+  </table>
+
+  <script>
+ 
+    function users() {
+      fetch('http://localhost:3000/singin')
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.getElementById("userTableBody");
+
+          data.forEach(user => {
+            const row = tableBody.insertRow();
+        row.insertCell().textContent = user.userid;
+            row.insertCell().textContent = user.fullname;
+            row.insertCell().textContent = user.password;
+            row.insertCell().textContent = user.Domain;
+            row.insertCell().textContent = user.course || ""; 
+            row.insertCell().textContent = user.department;
+           
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching data:', error);
+        });
+    }
+
+  
+    users();
+  </script>
+
+</body>
+</html>
